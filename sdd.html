@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajay Shrestha Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      overflow-x: hidden;
+    }
+    /* Full-screen video background */
+    #bgVideo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100vw;
+      min-height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 0.3; /* Optional: adjust visibility */
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: rgba(30, 41, 59, 0.9); /* Semi-transparent background for header */
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #fbbf24;
+    }
+    header p {
+      color: #fcd34d;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #facc15;
+    }
+    .project, .content-block {
+      margin-bottom: 2rem;
+      background: #334155;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 0 10px rgba(251, 191, 36, 0.15);
+    }
+    .project:hover, .content-block:hover {
+      transform: scale(1.02);
+      box-shadow: 0 10px 30px rgba(251, 191, 36, 0.3);
+    }
+    footer {
+      background: #1e293b;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+    }
+    ul {
+      list-style: inside;
+      margin-left: 1rem;
+    }
+    a {
+      color: #fbbf24;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      color: #e2e8f0;
+    }
+    th, td {
+      border: 1px solid #475569;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background-color: #1e293b;
+      color: #facc15;
+    }
+    tr:nth-child(even) {
+      background-color: #475569;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-screen Video Background -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="background.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <header>
+    <h1 id="title">Ajay Shrestha, PhD</h1>
+    <p id="subtitle">Engineering Manager | AI Researcher | Educator</p>
+  </header>
+
+  <section>
+    <h2>Introduction</h2>
+    <div class="content-block">
+      <p>Ajay Shrestha, PhD in Machine Learning (AI), is a seasoned engineering leader with nearly two decades of experience in technology and management. As an Engineering Manager at Imagen, a New York-based healthcare AI startup, he oversees the cloud infrastructure supporting the company’s AI-driven medical diagnostics-as-a-service platform.</p>
+      <p>Prior to this, Ajay led engineering teams at Thermo Fisher Scientific, building cloud-based solutions for life sciences. He is also an adjunct faculty member at the University of Bridgeport and serves on its Alumni Association Board.</p>
+      <p>Ajay is passionate about using technology to address critical societal challenges and is currently pursuing an MBA at Yale University.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Expertise</h2>
+    <div class="content-block">
+      <ul>
+        <li><strong>Technology:</strong> DevOps, Cloud Computing, Software Engineering, Machine Learning (AI)</li>
+        <li><strong>Management:</strong> Agile, Lean, Product Development</li>
+        <li><strong>Industry:</strong> Healthcare, Life Sciences, Education</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="content-block">
+      <p>~ Two decades of engineering and management experience at US companies ranging from startups to Fortune 100 corporations including iMedX, Thermo Fisher Scientific, and Imagen Technologies (present)</p>
+      <p>7+ years of teaching (2016 - present) as Adjunct Faculty at University of Bridgeport</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education & Certifications</h2>
+    <div class="content-block">
+      <p>BS/MS/PhD, Computer Science & Engineering, University of Bridgeport</p>
+      <p>Various industry certifications in cloud, devops, AI, and management</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Web Profiles</h2>
+    <div class="content-block">
+      <ul>
+        <li>LinkedIn</li>
+        <li>Google Scholar</li>
+        <li>University Faculty</li>
+        <li>Blogpost - ⭐ subscribe here ⭐</li>
+        <li>AI Journal</li>
+        <li>Certifications</li>
+        <li>GitHub</li>
+        <li>Twitter</li>
+        <li>ResearchGate</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research Publications</h2>
+    <div class="content-block">
+      <ul>
+        <li>Dissertation: Enhanced Deep Network Designs Using Mitochondrial DNA Based Genetic Algorithm and Importance Sampling, 2019</li>
+        <li>Conference: Optimizing Deep Neural Network Architecture with Enhanced Genetic Algorithm, ICMLA 2019</li>
+        <li>Journal: Review of Deep Learning Algorithms and Architectures, IEEE Access, 2019 ⭐ 1.5k+ citations ⭐</li>
+        <li>Conference: Enhancing Siamese Networks Training with Importance Sampling, ICAART 2019</li>
+        <li>Journal: Improving Genetic Algorithm with Fine-Tuned Crossover and Scaled Architecture, Journal of Mathematics, 2016</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Activities</h2>
+    <div class="content-block">
+      <ul>
+        <li>Board Member, UB Alumni Association (2022–Present)</li>
+        <li>Interviewed by UB & Scientific Computing World on AI, Cloud trends</li>
+        <li>Thermo Fisher Blog Post: Top 5 blogs of 2020</li>
+        <li>Coursera Certification - Entrepreneurship Specialization, 2020</li>
+        <li>Leadership Roles: UPE Honor Society, Technical Committees, Student Congress</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Awards</h2>
+    <div class="content-block">
+      <ul>
+        <li>Distinguished Alumni Award, University of Bridgeport, 2024</li>
+        <li>Academic & Executive Council Awards (2016–2017)</li>
+        <li>Merit-based Scholarships & Graduate Assistantships</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Interests</h2>
+    <div class="content-block">
+      <p>Philosophy, Wellbeing, Sustainability, Entrepreneurship, Quantum Physics</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Recently Read Books</h2>
+    <div class="content-block">
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Published</th>
+            <th>First Author</th>
+            <th>Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Nexus</td><td>2024</td><td>Yuval Noah Harari</td><td>Social Science, AI, Technology</td></tr>
+          <tr><td>The Worlds I See</td><td>2023</td><td>Dr. Fei-Fei Li</td><td>AI, Biography</td></tr>
+          <tr><td>AI Revolution in Medicine</td><td>2023</td><td>Peter Lee</td><td>Technology, AI, Healthcare</td></tr>
+          <tr><td>The Coming Wave</td><td>2023</td><td>Mustafa Suleyman</td><td>Technology, Social Science</td></tr>
+          <tr><td>Elon Musk</td><td>2023</td><td>Walter Isaacson</td><td>Biography, Technology, Management</td></tr>
+          <tr><td>The Age of AI</td><td>2022</td><td>Henry Kissinger</td><td>Technology, Social Science</td></tr>
+          <tr><td>Chip War</td><td>2022</td><td>Chris Miller</td><td>Technology, Business, Economics</td></tr>
+          <tr><td>How the World Really Works</td><td>2022</td><td>Smil Vaclav</td><td>Natural & Social Science, History</td></tr>
+          <tr><td>The Startup of You</td><td>2022</td><td>Reid Hoffman</td><td>Career, Personal Growth</td></tr>
+          <tr><td>From Strength to Strength</td><td>2022</td><td>Arthur C. Brooks</td><td>Social Science, Personal Growth</td></tr>
+          <tr><td>Learning Agile</td><td>2021</td><td>Andrew Stellman</td><td>Technology, Product Development</td></tr>
+          <tr><td>The DevOps Handbook</td><td>2021</td><td>Gene Kim</td><td>Technology, Management</td></tr>
+          <tr><td>Radical Focus</td><td>2021</td><td>Christina Wodtke</td><td>Management</td></tr>
+          <tr><td>Software Engineering at Google</td><td>2020</td><td>Titus Winters</td><td>Technology, Software</td></tr>
+          <tr><td>Invent and Wander</td><td>2020</td><td>Jeff Bezos</td><td>Business, Management</td></tr>
+          <tr><td>Lean Enterprise</td><td>2020</td><td>Jez Humble</td><td>Technology, Management</td></tr>
+          <tr><td>Deep Medicine</td><td>2019</td><td>Eric Topol</td><td>Healthcare, AI</td></tr>
+          <tr><td>Monolith to Microservices</td><td>2019</td><td>Sam Newman</td><td>Technology, Software</td></tr>
+          <tr><td>The Deep Learning Revolution</td><td>2018</td><td>Terrence J. Sejnowski</td><td>Technology, AI</td></tr>
+          <tr><td>Accelerate</td><td>2018</td><td>Nicole Forsgren PhD</td><td>Technology, Management</td></tr>
+          <tr><td>AI Superpowers</td><td>2018</td><td>Kai-Fu Lee</td><td>Technology, AI</td></tr>
+          <tr><td>21 Lessons for the 21st Century</td><td>2018</td><td>Yuval Noah Harari</td><td>Social Science, Philosophy</td></tr>
+          <tr><td>Sapiens</td><td>2018</td><td>Yuval Noah Harari</td><td>Social Science, History</td></tr>
+          <tr><td>Atomic Habits</td><td>2018</td><td>James Clear</td><td>Personal Growth</td></tr>
+          <tr><td>Hit Refresh</td><td>2018</td><td>Satya Nadella</td><td>Business, Management</td></tr>
+          <tr><td>This Is Marketing</td><td>2018</td><td>Seth Godin</td><td>Business, Marketing</td></tr>
+          <tr><td>A Brief History of Everything</td><td>2017</td><td>Ken Wilber</td><td>Philosophy, History</td></tr>
+          <tr><td>Seven Brief Lessons on Physics</td><td>2016</td><td>Carlo Rovelli</td><td>Science, Physics</td></tr>
+          <tr><td>Blue Ocean Strategy</td><td>2015</td><td>W. Chan Kim</td><td>Entrepreneurship, Business</td></tr>
+          <tr><td>Wartime Software</td><td>2015</td><td>David B. Black</td><td>Technology, Software</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Ajay Shrestha. All rights reserved.
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script>
+    gsap.from("#title", { duration: 1, y: -50, opacity: 0, ease: "power4.out" });
+    gsap.from("#subtitle", { duration: 1, delay: 0.3, y: 30, opacity: 0, ease: "power2.out" });
+    gsap.from("section", {
+      duration: 1,
+      delay: 0.5,
+      y: 30,
+      opacity: 0,
+      stagger: 0.3
+    });
+    gsap.utils.toArray('.content-block').forEach(block => {
+      block.addEventListener('mouseenter', () => {
+        gsap.to(block, { scale: 1.02, duration: 0.3 });
+      });
+      block.addEventListener('mouseleave', () => {
+        gsap.to(block, { scale: 1, duration: 0.3 });
+      });
+    });
+  </script>
+</body>
+</html>
